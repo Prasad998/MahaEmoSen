@@ -1,21 +1,18 @@
 # MahaEmoSen
 
-![Stars](https://img.shields.io/github/stars/Prasad998/MahaEmoSen?style=social)
-![License](https://img.shields.io/github/license/Prasad998/MahaEmoSen)
-![arXiv](https://img.shields.io/badge/arXiv-Coming%20Soon-b31b1b)
-
 **Emotion-aware Multimodal Framework for Sentiment Analysis in Marathi**
 
 ---
 
 ## 🧠 Overview
 
-**MahaEmoSen** is a novel **multimodal deep learning framework** designed for **sentiment analysis** in **Marathi**, a low-resource language. It leverages:
+**MahaEmoSen** is a novel **multimodal deep learning framework** designed for **sentiment analysis** in **Marathi**, a low-resource language.   
+ It leverages:
 
-- Emotion-aware representation learning from tweets
-- Multimodal fusion using textual and visual content
-- Word-level attention to filter noisy words
-- Data augmentation through back-translation and paraphrasing
+**- Emotion-aware representation learning from tweets**  
+**- Multimodal fusion using textual and visual content**  
+**- Word-level attention to filter noisy words**  
+**- Data augmentation through back-translation and paraphrasing**  
 
 ---
 
@@ -33,8 +30,8 @@
 
 - Emotion-tag enhanced multimodal sentiment classifier
 - Incorporation of emotional cues improves context sensitivity
-- Release of a large-scale annotated Marathi dataset
-- Outperforms strong baselines like MuRIL, MahaRoBERTa, IndicBERT
+- Release of a large-scale annotated Dataset for Sentiment Analysis in Marathi.
+- Outperforms strong baselines like **MuRIL**, **MahaRoBERTa**, **IndicBERT**
 
 ---
 
