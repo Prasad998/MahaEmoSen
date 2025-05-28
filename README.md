@@ -35,15 +35,42 @@
 
 ---
 
-## 🧾 Problem Formulation
+## 🧩 Problem Formulation
 
-Given a dataset \( D \) of multimodal tweets \( T_i \) with:
+Given a dataset of multimodal Marathi tweets:
 
-- Textual feature \( T_t \)
-- Emotion feature \( E_i \in \{	ext{anger, fear, joy, love, sadness, surprise}\} \)
-- Image feature \( I_i \)
+\[
+\mathcal{D} = \{ T_i \}_{i=1}^{N_t}
+\]
 
-The task is to classify sentiment \( S_i \in \{0: 	ext{Negative}, 1: 	ext{Neutral}, 2: 	ext{Positive} \} \).
+where each tweet \( T_i \) is associated with:
+
+- a **textual feature**: \( T_i^t \)  
+- an **image feature**: \( I_i \)  
+- an **emotion feature**: \( E_i \in \mathcal{E} \)
+
+We define:
+
+\[
+\mathcal{E} = \{\text{anger}, \text{fear}, \text{joy}, \text{love}, \text{sadness}, \text{surprise}\}
+\]
+
+The task is to predict a **sentiment label** \( S_i \in \mathcal{S} \), where:
+
+\[
+\mathcal{S} = \{0\ (\text{negative}),\ 1\ (\text{neutral}),\ 2\ (\text{positive})\}
+\]
+
+Thus, the objective is to learn a function:
+
+\[
+f: (T_i^t, I_i, E_i) \longrightarrow S_i
+\]
+
+such that the sentiment classification is accurate across the multimodal and emotion-embedded inputs.
+
+This is framed as a **multi-class classification** problem. To address the low-resource nature of the Marathi language, we construct a **synthetically augmented dataset** using techniques like back-translation and data diversification. These improvements help our deep learning model generalize better across diverse and context-rich tweet samples.
+
 
 ---
 
