@@ -90,7 +90,7 @@ This is framed as a **multi-class classification** problem. To address the low-r
 
 ---
 
-## 📊 Results Summary
+## 📊 Results Summary (Modality Contribution Study)
 
 | Model Variant         | Precision (%) | Recall (%) | F1-Score (%) | Accuracy (%) |
 |-----------------------|---------------|-------------|---------------|---------------|
@@ -98,17 +98,6 @@ This is framed as a **multi-class classification** problem. To address the low-r
 | MahaEmoSen (I)        | 41.94         | 48.39       | 36.98         | —             |
 | MahaEmoSen (T+E)      | 84.67         | 84.68       | 84.65         | 84.67         |
 | MahaEmoSen (T+E+I)    | **85.60**     | **85.55**   | **85.57**     | **85.60**     |
-
-### 📈 Baseline Comparison
-
-| Model            | Precision (%) | Recall (%) | F1-Score (%) | 
-|------------------|-----------|--------|----------|
-| BERT-base        | 69.88     | 67.35  | 69.36    |
-| CNN              | 75.87     | 72.53  | 75.42    |
-| MarathiSentiment | 77.20     | 72.80  | 77.39    |
-| MahaRoBERTa      | 82.47     | 77.30  | 83.96    |
-| MuRIL            | 82.67     | 78.43  | 83.16    |
-| **MahaEmoSen**   | **85.60** | 85.55  | **85.57**|
 
 
 ### 📊 **Effectiveness Comparison Results on L3CubeMahaSent**
