@@ -16,13 +16,26 @@
 
 ---
 
+## 📰 Publication
+
+This work has been presented in the paper:  
+**["MahaEmoSen: Towards Emotion-aware Multimodal Marathi Sentiment Analysis"](https://doi.org/10.1145/3618057)**
+
+- 🧪 **Status:** _(Published in TALLIP Volume 22, Issue 9)_  [ACM Transactions on Asian and Low-Resource Language Information Processing](https://dl.acm.org/toc/tallip/2023/22/9)
+- 🏛️ **Authors:** Prasad Chaudhari, Pankaj Nandeshwar, Shubhi Bansal, Nagendra Kumar
+- 🔗 **DOI/Link:** [https://doi.org/10.1145/3618057](https://doi.org/10.1145/3618057)
+
+---
+
 ## 📰 Abstract
 
-> With the advent of the Internet, social media platforms have seen an enormous rise in user-generated content. Tweets often contain both text and images and are rich in sentiment and emotion. While sentiment analysis in English and major global languages has progressed rapidly, **Marathi**—a widely spoken Indian language—has seen limited research.
+> With the advent of the Internet, social media platforms have witnessed an enormous increase in user-generated textual and visual content. Microblogs on platforms such as Twitter are extremely useful for comprehending how individuals feel about a specific issue through their posted texts, images, and videos. Owing to the plethora of content generated, it is necessary to derive an insight of its emotional and sentimental inclination. Individuals express themselves in a variety of languages and, lately, the number of people preferring native languages has been consistently increasing. **Marathi language** is predominantly spoken in the Indian state of Maharashtra. However, sentiment analysis in Marathi has rarely been addressed.  
 >
-> We propose **MahaEmoSen**, an **emotion-aware multimodal sentiment classification model** that integrates **textual**, **visual**, and **emotional** information. We further tackle the scarcity of training data through robust augmentation techniques. A **word-level attention layer** is applied for contextual refinement, while emotion-tags aid sentiment prediction.
+> In light of the above, we propose an **emotion-aware multimodal Marathi sentiment analysis method (MahaEmoSen)**. Unlike the existing studies, we leverage **emotions embedded in tweets** besides assimilating the content-based information from the **textual and visual modalities** of social media posts to perform a sentiment classification. We mitigate the problem of small training sets by implementing **data augmentation techniques**. A **word-level attention mechanism** is applied on the textual modality for **contextual inference** and filtering out noisy words from tweets.  
 >
-> Experimental results reveal that **MahaEmoSen outperforms baseline models** significantly in emotion-rich and data-scarce settings.
+> Experimental outcomes on real-world social media datasets demonstrate that our proposed method **outperforms the existing methods** for Marathi sentiment analysis in **resource-constrained circumstances**.
+
+---
 
 ---
 
@@ -96,6 +109,22 @@ This is framed as a **multi-class classification** problem. To address the low-r
 | MahaRoBERTa      | 82.47     | 77.30  | 83.96    |
 | MuRIL            | 82.67     | 78.43  | 83.16    |
 | **MahaEmoSen**   | **85.60** | 85.55  | **85.57**|
+
+
+### 📊 **Effectiveness Comparison Results on L3CubeMahaSent**
+
+| **Model**             | **Precision (%) - N** | **Precision (%) - Nr** | **Precision (%) - P**  | **Recall (%) - N** | **Recall (%) - Nr**  | **Recall (%) - P**   | **F1-Score (%) - N** | **F1-Score (%) - Nr**  | **F1-Score (%) - P**   | *Avg. Precision (Categorical Accuracy)* |
+|-----------------------|------------------------|--------|--------|---------------------|---------|--------|------------------------|---------|--------|---------------------------------------------------|
+| BERT-base-uncased     | 70.6                   | 71.8   | 67     | 75.43               | 63.43   | 71.89  | 72.93                  | 67.35   | 69.36  | 69.88                                                |
+| Bi-LSTM               | 80                     | 70.2   | 77.2   | 76.92               | 73.89   | 76.44  | 78.43                  | 72      | 76.82  | 75.79                                                |
+| CNN                   | 80.6                   | 70     | 77     | 78.39               | 75.27   | 73.89  | 79.48                  | 72.53   | 75.42  | 75.87                                                |
+| IndicBERT             | 80.4                   | 69.8   | 76.8   | 78.21               | 75.05   | 73.03  | 79.29                  | 72.33   | 75.22  | 75.67                                                |
+| MarathiSentiment      | 85.2                   | 70.4   | 76     | 77.31               | 75.37   | 78.84  | 81.07                  | 72.8    | 77.39  | 77.20                                                |
+| MarathiAlBERT         | 89.4                   | 70.8   | 82.6   | 78.7                | 83.89   | 80.98  | 83.71                  | 76.79   | 81.78  | 80.93                                                |
+| MahaRoBERTa           | 93                     | 72.2   | 82.2   | 79.22               | 83.18   | 85.8   | 85.56                  | 77.3    | 83.96  | 82.47                                                |
+| XLM-RoBERTa-base      | 87                     | 75     | 85     | 86.14               | 80.3    | 80.49  | 86.57                  | 77.56   | 82.68  | 82.33                                                |
+| MuRIL                 | 88.8                   | 77.8   | 82     | 85.06               | 79.07   | 84.36  | 86.89                  | 78.43   | 83.16  | 82.67                                                |
+| 🏆 **MahaEmoSen**     | **90.6**               | **80** | **86.2** | **88.13**         | **81.63** | **86.9** | **89.35**              | **80.81** | **86.55** | **💯 85.60**                                |
 
 ---
 
