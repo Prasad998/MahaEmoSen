@@ -69,7 +69,7 @@ $$
 \mathcal{E} = \{\text{anger}, \text{fear}, \text{joy}, \text{love}, \text{sadness}, \text{surprise}\}
 $$
 
-Our goal is to predict the sentiment label \( S_i \in \mathcal{S} \), where:
+Our goal is to predict the sentiment label $$\( S_i \in \mathcal{S} \),$$ where:
 
 $$
 \mathcal{S} = \{0\ (\text{negative}),\ 1\ (\text{neutral}),\ 2\ (\text{positive})\}
