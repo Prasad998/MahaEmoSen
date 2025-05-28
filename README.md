@@ -1,6 +1,4 @@
-# MahaEmoSen
-
-**Emotion-aware Multimodal Framework for Sentiment Analysis in Marathi**
+# MahaEmoSen: Emotion-aware Multimodal Framework for Sentiment Analysis in Marathi
 
 ---
 
@@ -117,14 +115,13 @@ This is framed as a **multi-class classification** problem. To address the low-r
 
 ---
 
-## 📂 Dataset
+## 📂 Code and Datasets
 
 - Original, augmented, and back-translated Marathi tweets
 - Emotion annotations and associated images
+- Main model code with abalation study codes.
   
-**NOTE** -- The Image Feature Files are uploaded in Compressed Format as **>100 MB**.  
-
-> 📢 _Dataset download link coming soon. Contact the authors for early access._
+> 📢 _**NOTE** -- The Image Feature Files are uploaded in Compressed Format as **>100 MB**_
 
 ---
 
@@ -133,6 +130,8 @@ This is framed as a **multi-class classification** problem. To address the low-r
 <p align="center">
   <img src="assets/mahaemosen-architecture.png" alt="MahaEmoSen Architecture" width="600"/>
 </p>
+![Main Architecture](https://github.com/user-attachments/assets/2ea6fbf8-0027-4c95-aed8-1bf16a136488)
+![neural nw final](https://github.com/user-attachments/assets/fab8baac-acab-46fd-aa2e-ecbdeb93ecc2)
 
 ---
 
@@ -179,8 +178,7 @@ print("Predicted sentiment:", pred)
 
 ## 📚 Citation
 
-> 📌 Citation will be added after formal publication.  
-> _For preprint, collaboration or early access, reach out to the authors._
+> 📌 _For rights, collaboration or related access, reach out to the authors._
 
 ---
 
