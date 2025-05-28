@@ -73,6 +73,8 @@ The task is to classify sentiment \( S_i \in \{0: 	ext{Negative}, 1: 	ext{Neutra
 
 - Original, augmented, and back-translated Marathi tweets
 - Emotion annotations and associated images
+  
+**NOTE** -- The Image Feature Files are uploaded in Compressed Format as **>100 MB**.  
 
 > 📢 _Dataset download link coming soon. Contact the authors for early access._
 
