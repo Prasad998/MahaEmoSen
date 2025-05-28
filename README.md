@@ -128,10 +128,10 @@ This is framed as a **multi-class classification** problem. To address the low-r
 ## 🧩 Architecture
 
 <p align="center">
-  <img src="assets/mahaemosen-architecture.png" alt="MahaEmoSen Architecture" width="600"/>
+  <img src="Main Architecture.png" alt="MahaEmoSen Architecture" width="500"/>
+  <img src="neural nw final.png" alt="Neural Network Layers" width="500"/>
+ 
 </p>
-![Main Architecture](https://github.com/user-attachments/assets/2ea6fbf8-0027-4c95-aed8-1bf16a136488)
-![neural nw final](https://github.com/user-attachments/assets/fab8baac-acab-46fd-aa2e-ecbdeb93ecc2)
 
 ---
 
