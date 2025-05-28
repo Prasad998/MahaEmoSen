@@ -21,7 +21,7 @@ This work has been presented in the paper:
 
 - 🧪 **Status:** _(Published in TALLIP Volume 22, Issue 9)_  [ACM Transactions on Asian and Low-Resource Language Information Processing](https://dl.acm.org/toc/tallip/2023/22/9)
 - 🏛️ **Authors:** Prasad Chaudhari, Pankaj Nandeshwar, Shubhi Bansal, Nagendra Kumar
-- 🔗 **DOI/Link:** [https://doi.org/10.1145/3618057](https://doi.org/10.1145/3618057)
+- 🔗 **DOI/Paper Link:** [https://doi.org/10.1145/3618057](https://doi.org/10.1145/3618057)
 
 ---
 
